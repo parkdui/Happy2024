@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "Ownglyph_2022_UWY_Si_Woo-Rg";
+  src: url('Fonts/Ownglyph_2022_UWY_Si_Woo-Rg.ttf');
+}
+html, body {
+  margin: 0;
+  padding: 0;
+   -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+canvas {
+  display: block;
+  z-index: -100;
+  position: absolute;
+}
+
+.sec {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin-top: -40px;
+}
+
+h1 {
+  font-family: "Ownglyph_2022_UWY_Si_Woo-Rg";
+  text-align: center;
+  font-size: 80px;
+}
+
+.sec p {
+/*   width: 800px; */
+  font-family: "Ownglyph_2022_UWY_Si_Woo-Rg";
+  text-align: center;
+  font-size: 30px;
+  margin-top: -40px;
+}
+
+.finishBtn {
+  position: absolute;
+    bottom: 4%;
+    left: 50%;
+    transform: translate(-50%,0);
+  background-color: #4169E1;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: #ffffff;
+  padding: 8px 12px;
+  font-size: 24px;
+  color: #ffffff;
+  font-family: "Ownglyph_2022_UWY_Si_Woo-Rg";
+  cursor: pointer;
+}
+
+.sec2 {
+  display: block;
+  font-family: "Ownglyph_2022_UWY_Si_Woo-Rg";
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin-top: -40px;
+}
+
+.sec2 h3 {
+ font-family: "Ownglyph_2022_UWY_Si_Woo-Rg";
+  text-align: center;
+  font-size: 48px;  
+  border-right: .15em solid orange;
+  overflow: hidden;
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: -50px auto;
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .8s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+.sec2 input {
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: orange;
+  padding: 8px;
+  background-color: white;
+  width: 60%;
+  font-size: 24px;
+  font-family: "Ownglyph_2022_UWY_Si_Woo-Rg";
+  margin-top: 70%;
+}
+.sec2 input::placeholder {
+  color: gray;
+}
+.sec2 button {
+  width: 18%;
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: white;
+  padding: 8px 16px;
+  margin-left: 40px;
+  position: relative;
+  background-color: #4169E1;
+  font-size: 24px;
+  color: #ffffff;
+  font-family: "Ownglyph_2022_UWY_Si_Woo-Rg";
+  cursor: pointer;
+}
+
+.sec3 {
+  display: block;
+  font-family: "Ownglyph_2022_UWY_Si_Woo-Rg";
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+    left: 50%;
+    transform: translate(-50%,0);
+    margin-top: -40px;
+}
+
+.sec4 {
+  width: auto;
+  position: absolute;
+  margin: 30px 20px;
+}
+
+.sec4 p {
+  width: 100%;
+  font-family: "Ownglyph_2022_UWY_Si_Woo-Rg";
+  text-align: center;
+  font-size: 28px;
+  color: rgb(26,26,26);
+/*   border-right: .15em solid orange; */
+  overflow: hidden;
+  overflow-wrap: break-word;
+  white-space: normal; /* Keeps the content on a single line */
+  margin: 10px auto;
+  animation: 
+    typing 3.5s steps(30, end),
+/*     blink-caret .8s step-end infinite; */
+}
