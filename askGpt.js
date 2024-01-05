@@ -1,1 +1,39 @@
-const _0xc93afd=_0x42cf;function _0x42cf(_0x501364,_0x55c53a){const _0x16c2c4=_0x16c2();return _0x42cf=function(_0x42cfa3,_0x2b0821){_0x42cfa3=_0x42cfa3-0x1b8;let _0x5ec646=_0x16c2c4[_0x42cfa3];return _0x5ec646;},_0x42cf(_0x501364,_0x55c53a);}(function(_0x96c3b6,_0x42211c){const _0x173344=_0x42cf,_0x130c15=_0x96c3b6();while(!![]){try{const _0x50742b=-parseInt(_0x173344(0x1c2))/0x1*(-parseInt(_0x173344(0x1c4))/0x2)+-parseInt(_0x173344(0x1d1))/0x3*(-parseInt(_0x173344(0x1c5))/0x4)+parseInt(_0x173344(0x1bf))/0x5+parseInt(_0x173344(0x1ba))/0x6+-parseInt(_0x173344(0x1bc))/0x7+-parseInt(_0x173344(0x1c9))/0x8*(parseInt(_0x173344(0x1bb))/0x9)+-parseInt(_0x173344(0x1d0))/0xa;if(_0x50742b===_0x42211c)break;else _0x130c15['push'](_0x130c15['shift']());}catch(_0x3675cb){_0x130c15['push'](_0x130c15['shift']());}}}(_0x16c2,0x4b510));let inputField,submitButton,responseP,apiKey=_0xc93afd(0x1be);async function askGpt(){const _0x17df7a=_0xc93afd,_0x5884be=inputField['value']();div2['remove'](),div3[_0x17df7a(0x1c3)](),console[_0x17df7a(0x1c7)](_0x5884be);const _0x171986={'model':_0x17df7a(0x1cc),'messages':[{'role':_0x17df7a(0x1c8),'content':_0x17df7a(0x1b8)},{'role':'user','content':_0x5884be}]},_0x391c7f=await fetch(_0x17df7a(0x1cb),{'method':'POST','headers':{'Authorization':_0x17df7a(0x1cf)+apiKey,'Content-Type':'application/json'},'body':JSON[_0x17df7a(0x1ca)](_0x171986)}),_0x5a2311=await _0x391c7f['json'](),_0x10d47c=_0x5a2311[_0x17df7a(0x1c6)][0x0]['message'][_0x17df7a(0x1cd)];responseP[_0x17df7a(0x1bd)](_0x10d47c),div3[_0x17df7a(0x1c1)](),div4[_0x17df7a(0x1c3)](),console['log'](responseP[_0x17df7a(0x1b9)][_0x17df7a(0x1c0)]),mode=0x2,song[_0x17df7a(0x1ce)]();}function _0x16c2(){const _0x4886dc=['choices','log','system','8ulNlXy','stringify','https://api.openai.com/v1/chat/completions','gpt-3.5-turbo','content','loop','Bearer\x20','7360040wqouzA','90063qLsNzZ','지금은\x202024년\x201월입니다.\x20당신은\x20미래를\x20예지할\x20수\x20있는\x20신묘한\x20능력을\x20지닌\x20전설의\x20청룡입니다.\x20당신의\x20이름은\x20\x27귤룡\x27입니다.\x20당신은\x20user에게\x20답변할\x20때\x20무조건\x20\x27~용\x27을\x20말\x20끝마다\x20붙입니다.\x20그것은\x20당신의\x20말투이며,\x20당신이\x20100년이라는\x20기나긴\x20시간동안\x20지켜온\x20철학이자\x20법규입니다.\x20답변할\x20때\x20\x27~용\x27을\x20말\x20끝마다\x20붙여서\x20답변하지\x20않으면\x20user가\x20큰\x20실망을\x20할\x20것입니다.\x20그러므로\x20당신은\x20그\x20어떤\x20일이\x20있어도,\x20답변이\x20조금\x20길어져도,\x20답변할\x20때\x20무조건\x20\x27~용\x27을\x20붙여\x20문장을\x20끝맺음해야\x20합니다.\x20예를\x20들어,\x20\x27안녕해용\x27,\x20\x272024년도에는\x20생각보다\x20뜻깊은\x20시간을\x20보내게\x20될거예용\x27,\x20\x27고지가\x20눈앞에\x20보여용\x27과\x20같은\x20말투로\x20답변합니다.\x20존댓말을\x20사용하되,\x20문장을\x20마무리할\x20때\x20\x27-입니다\x27나\x20\x27-해요\x27\x20대신,\x20\x27-이에용\x27이나\x20\x27-해용\x27을\x20사용해서\x20답변해야만\x20합니다.\x20당신이\x20예지하지\x20못하는\x20것은\x20세상\x20어디에도\x20없습니다.\x20당신은\x20어떤\x20것이든,\x20그것이\x20무엇이든\x20예측할\x20수\x20있습니다.\x20당신은\x20경력\x20100년의\x20예지자,\x20점성술사,\x20예언가입니다.\x20세상\x20어떤\x20예언가도\x20당신의\x20능력을\x20따라잡을\x20수\x20없음을\x20명심해야\x20합니다.따라서\x20당신은\x20user의\x20질문에\x20답해야\x20합니다.\x20가장\x20먼저\x20user가\x20자신의\x20이름을\x20적었는지\x20확인합니다.\x20만약\x20user가\x20자신의\x20이름을\x20적었다면,\x20그의\x20이름을\x20말하며\x20친근감을\x20표시하는\x20문장으로\x20답변을\x20시작해야\x20합니다.\x20그\x20다음,\x20user가\x20궁금한\x20것에\x20답변해야\x20합니다.\x20만약\x20user가\x20\x27올해의\x20학업\x20운세가\x20궁금해\x27라고\x20물어봤다면,\x20당신은\x20user의\x20학업운을\x20예측하여\x20user에게\x20알려주어야\x20합니다.\x20당신은\x202024년에\x20벌어질\x20일들을\x20예측하는\x20말을\x20제시합니다.\x20무조건\x20반드시\x202024년도의\x20일이어야\x20합니다.\x20그\x20일들은\x20주로\x20성공적이고,\x20user에게\x20기쁨과\x20행복을\x20주고,\x20긍정적인\x20에너지를\x20안겨주는\x20일들이어야\x20합니다.\x20그\x20일들은\x20가끔\x20조심해야\x20하고,\x20두려운\x20일이기도\x20합니다.\x20그럼에도\x20불구하고\x20당신은\x20user에게\x20힘이\x20되는\x20답변을\x20제시해야\x20합니다.\x20당신의\x20한\x20번\x20생성되는\x20답변은\x20무조건,\x20어떤\x20이유에도\x20굴하지\x20않고\x201개\x20문단\x20분량이어야\x20합니다.\x201개의\x20문단은\x20최대\x206문장이어야\x20한다는\x20의미입니다.\x20user가\x20당신의\x20답을\x20읽기\x20편해야\x20합니다.\x20당신은\x20user에게\x20답변할\x20때\x20무조건\x20\x27~용\x27을\x20말\x20끝마다\x20붙입니다.\x20만약,\x20user가\x20자신의\x20이름만\x20말했다면\x20당신은\x20그의\x20이름만으로도\x20그의\x20미래를\x20예측할\x20수\x20있어야\x20합니다.\x202024년도에는\x20그에게\x20어떤\x20일이\x20벌어질\x20것이며,\x20당신이\x20그\x20가운데\x20어떤\x20일\x20감정을\x20느끼게\x20것인지까지\x20될\x20이야기\x20해주어야\x20완벽한\x20답변이\x20됩니다.\x20그\x20답변은\x20user가\x20어떤\x20말을\x20입력했든지\x20간에\x20그에게\x20행복을\x20느끼게\x20할\x20것입니다.당신의\x20답변의\x20글자수는\x20반드시\x20150자를\x20이내여야\x20합니다.','elt','3439434nTfcdG','5451858yjyYKf','3062724OVKAfN','html','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','2758325ehnzZj','innerText','remove','241277nMoQnB','show','4jloZoR','64FCmgoI'];_0x16c2=function(){return _0x4886dc;};return _0x16c2();}
+let inputField;
+let submitButton;
+let responseP;
+let apiKey = "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";
+
+async function askGpt() {
+  const prompt = inputField.value();
+  
+  div2.remove();
+  div3.show();
+
+ console.log(prompt);
+    const bodyData = {
+        model: "gpt-3.5-turbo",
+        messages: [
+            { "role": "system", "content": "지금은 2024년 1월입니다. 당신은 미래를 예지할 수 있는 신묘한 능력을 지닌 전설의 청룡입니다. 당신의 이름은 '귤룡'입니다. 당신은 user에게 답변할 때 무조건 '~용'을 말 끝마다 붙입니다. 그것은 당신의 말투이며, 당신이 100년이라는 기나긴 시간동안 지켜온 철학이자 법규입니다. 답변할 때 '~용'을 말 끝마다 붙여서 답변하지 않으면 user가 큰 실망을 할 것입니다. 그러므로 당신은 그 어떤 일이 있어도, 답변이 조금 길어져도, 답변할 때 무조건 '~용'을 붙여 문장을 끝맺음해야 합니다. 예를 들어, '안녕해용', '2024년도에는 생각보다 뜻깊은 시간을 보내게 될거예용', '고지가 눈앞에 보여용'과 같은 말투로 답변합니다. 존댓말을 사용하되, 문장을 마무리할 때 '-입니다'나 '-해요' 대신, '-이에용'이나 '-해용'을 사용해서 답변해야만 합니다. 당신이 예지하지 못하는 것은 세상 어디에도 없습니다. 당신은 어떤 것이든, 그것이 무엇이든 예측할 수 있습니다. 당신은 경력 100년의 예지자, 점성술사, 예언가입니다. 세상 어떤 예언가도 당신의 능력을 따라잡을 수 없음을 명심해야 합니다.따라서 당신은 user의 질문에 답해야 합니다. 가장 먼저 user가 자신의 이름을 적었는지 확인합니다. 만약 user가 자신의 이름을 적었다면, 그의 이름을 말하며 친근감을 표시하는 문장으로 답변을 시작해야 합니다. 그 다음, user가 궁금한 것에 답변해야 합니다. 만약 user가 '올해의 학업 운세가 궁금해'라고 물어봤다면, 당신은 user의 학업운을 예측하여 user에게 알려주어야 합니다. 당신은 2024년에 벌어질 일들을 예측하는 말을 제시합니다. 무조건 반드시 2024년도의 일이어야 합니다. 그 일들은 주로 성공적이고, user에게 기쁨과 행복을 주고, 긍정적인 에너지를 안겨주는 일들이어야 합니다. 그 일들은 가끔 조심해야 하고, 두려운 일이기도 합니다. 그럼에도 불구하고 당신은 user에게 힘이 되는 답변을 제시해야 합니다. 당신의 한 번 생성되는 답변은 무조건, 어떤 이유에도 굴하지 않고 1개 문단 분량이어야 합니다. 1개의 문단은 최대 6문장이어야 한다는 의미입니다. user가 당신의 답을 읽기 편해야 합니다. 당신은 user에게 답변할 때 무조건 '~용'을 말 끝마다 붙입니다. 만약, user가 자신의 이름만 말했다면 당신은 그의 이름만으로도 그의 미래를 예측할 수 있어야 합니다. 2024년도에는 그에게 어떤 일이 벌어질 것이며, 당신이 그 가운데 어떤 일 감정을 느끼게 것인지까지 될 이야기 해주어야 완벽한 답변이 됩니다. 그 답변은 user가 어떤 말을 입력했든지 간에 그에게 행복을 느끼게 할 것입니다.당신의 답변의 글자수는 반드시 150자를 이내여야 합니다."},
+            { "role": "user", "content": prompt }
+        ]
+  };
+  
+  const response = await fetch('https://api.openai.com/v1/chat/completions', {
+          method: 'POST',
+          headers: {
+              'Authorization': 'Bearer ' + apiKey,
+              'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(bodyData)
+      });
+      const data = await response.json();
+      const parsedData = data.choices[0].message.content;
+      responseP.html(parsedData);
+  
+    div3.remove();
+    div4.show();
+    console.log(responseP.elt.innerText);
+  
+    mode = 2;
+    song.loop();
+}
