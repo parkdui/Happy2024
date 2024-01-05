@@ -1,7 +1,7 @@
 let inputField;
 let submitButton;
 let responseP;
-let apiKey = "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";
+let apiKey = "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";
 
 async function askGpt() {
   const prompt = inputField.value();
